@@ -2,11 +2,26 @@
 <html>
 <head>
 	<title>VLANS - BR OR SW?</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta property="og:site_name" content="My site title">
 	<meta property="og:title" content="VLANS - BR OR SW?" />
 	<meta property="og:url" content="https://vlanscorrectway.ml" />
 	<meta property="og:description" content="Bridge VLAN Filtering или VLAN on Switch chip" />
 	<meta name='robots' content='noindex,nofollow' />
+	 <style type="text/css">
+        body {
+            background-color: #f0f0f0;
+            color: #0f0f0f;
+            -webkit-filter: blur(0.3px);
+            filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0.3');
+        }
+        a:link {
+		color: #143d52;
+		}
+		a:visited {
+		color: #0f2e3d;
+		}
+    </style>
 </head>
 <body>
 <pre>
@@ -34,7 +49,7 @@
   | |                       |                       |                                                                                                       |
   | |                       |                       |     •  L2 PPP-интерфейсы                                                                              |
   | |                       |                       |     •  WLAN-интерфейсы                                                                                |
-  | |            ,+---------v---------+. \         //     •  (<a href="https://wiki.mikrotik.com/wiki/Manual:VLANs_on_Wireless">https://wiki.mikrotik.com/wiki/Manual:VLANs_on_Wireless</a>, см. Warning и Note)                  |
+  | |            ,+---------v---------+. \         //     •  (<a href="https://wiki.mikrotik.com/wiki/Manual:VLANs_on_Wireless">https://wiki.mikrotik.com/wiki/Manual:VLANs_on_Wireless</a>, см. <b>Warning</b> и <b>Note</b>)                  |
   | |           (                       ) \       /       •  WLAN-мосты                                                                                     |
   | |       ДА  (Бридж с L2 интерфейсами)  }     {        •  CAP-интерфейсы                                                                                 |
   | | +--------+(  вне Switch-чипа ?    ) /       \       •  (<a href="https://wiki.mikrotik.com/wiki/Manual:CAPsMAN_with_VLANs#Using_CAPsMAN_Forwarding_Mode">https://wiki.mikrotik.com/wiki/Manual:CAPsMAN_with_VLANs#Using_CAPsMAN_Forwarding_Mode</a>)       |
@@ -61,7 +76,7 @@
   | | | | |     +-----------------------+   \     /    <a href="https://wiki.mikrotik.com/wiki/Manual:Basic_VLAN_switching">https://wiki.mikrotik.com/wiki/Manual:Basic_VLAN_switching</a>    |
   | | | | |                                  }   {                                                                   |
   | | | | |     +-----------------------+   /     \    *для самых невнимательных - у каждого из разделов есть ссылка |
-  | | | | |     |  Bridge VLAN filter   |  /       \\   "More datailed examples can be found here "                  |
+  | | | | |     |  Bridge VLAN filter   |  /       \\   "More datailed examples can be found <b>here</b>."                  |
   | | | | |     +-----------^-----------+ /         \----------------------------------------------------------------/
   | | | | |                 |                                                                                                   (c) jscar           :)
   +-+-+-+-+-----------------+
